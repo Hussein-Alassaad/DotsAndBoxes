@@ -46,3 +46,8 @@ The game ends when all 20 boxes are claimed; the player with the most boxes wins
 
 Checking whether a move completes a box is **O(1)**: a line touches at most two boxes,
 and each box is checked by looking at its four sides.
+
+## Testing and debugging
+
+Testing, GDB, Valgrind and the boot setup are documented in [DEBUGGING.md](DEBUGGING.md).
+A complete game can be replayed with `./dotsandboxes < tests/full_game.txt`.
